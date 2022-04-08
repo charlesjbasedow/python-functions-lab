@@ -25,5 +25,5 @@ def occurances(string, string2):
 def product(*args):
   total = 1
   for arg in args:
-    product *= arg
+    total *= arg
   return total
